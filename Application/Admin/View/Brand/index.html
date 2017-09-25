@@ -1,0 +1,59 @@
+<layout name="../../../Public/master" />
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href=""><i class="fa fa-cogs"></i>
+            品牌管理</a>
+    </li>
+    <li class="active">
+        <a href="">品牌列表</a>
+    </li>
+</ol>
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="#tab1">品牌列表</a></li>
+</ul>
+<table class="table table-hover" style="margin: 20px">
+    <thead>
+    <tr>
+        <th width="80">品牌编号</th>
+        <th>品牌名</th>
+        <th>缩略图</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <foreach name="data" key="k" item="v">
+        <tr>
+            <th width="80">{$v['bid']}</th>
+            <td>{$v['bname']}</td>
+            <td><img src="{$v['brandlogo']}" alt="" width="50" height="20"></td>
+            <td>
+                <a class="btn btn-primary" href="{:u('admin/brand/save',['bid'=>$v['bid']])}" >编辑</a>
+                <a class="btn btn-danger" href="javascript:;"onclick="del({$v['bid']})">删除</a></td>
+        </tr>
+    </foreach>
+    </tbody>
+</table>
+<a class="btn btn-warning" href="{:u('admin/brand/save')}" style="margin-left: 20px;">添加</a>
+<div class="col-sm-12 text-right text-center-xs">
+    <ul class="pagination pagination-sm m-t-none m-b-none">
+        {$page}
+    </ul>
+</div>
+<script>
+    function del(bid) {
+        var obj = util.modal({
+            title:'确认删除吗?',//标题
+            content:'',//内容
+            footer:'<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button><button type="button" class="btn btn-danger confirm" data-dismiss="modal">删除</button>',//底部
+            width:600,//宽度
+            events:{
+                confirm:function(){
+                    //哪个元素上有.confirm类，被点击就执行这个回调
+                    location.href="{:u('admin/brand/delete/bid/"+bid+"')}";
+                }
+            }
+        });
+        //显示模态框
+        obj.modal('show');
+    }
+</script>

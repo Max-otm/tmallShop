@@ -1,0 +1,81 @@
+Array
+(
+    [0] => Array
+        (
+            [gid] => 11
+            [gname] => Gomoku牛仔裤男韩版潮春夏季弹力薄款修身小脚裤青少年休闲男裤子
+            [gnumber] => GMK17AH132
+            [unit] => 件
+            [marketprice] => 288
+            [shopprice] => 97
+            [pic] => /tpShop/tpShop/Shop/Uploads/2017-06-13/593fda5a4a75d.jpg
+            [click] => 17119
+            [total] => 422
+            [time] => 1497357018
+            [aid] => 1
+            [bid] => Array
+                (
+                    [bid] => 13
+                    [bname] => belulu
+                    [brandlogo] => /tpShop/tpShop/Shop/Uploads/2017-06-13/593fa2e942dbd.jpg
+                    [bsort] => 0
+                    [ishot] => 1
+                )
+
+            [cid] => 87
+            [tid] => 3
+        )
+
+    [1] => Array
+        (
+            [gid] => 12
+            [gname] => Gomoku高弹力夏季超薄款牛仔短裤男士修身5五分裤青少年中裤子潮
+            [gnumber] => GMK17C531#
+            [unit] => 件
+            [marketprice] => 168
+            [shopprice] => 89
+            [pic] => /tpShop/tpShop/Shop/Uploads/2017-06-13/593fdc1cddacb.jpg
+            [click] => 12321
+            [total] => 123
+            [time] => 1497357409
+            [aid] => 1
+            [bid] => Array
+                (
+                    [bid] => 22
+                    [bname] => CATALO
+                    [brandlogo] => /tpShop/tpShop/Shop/Uploads/2017-06-13/593fa50f4e18f.jpg
+                    [bsort] => 0
+                    [ishot] => 1
+                )
+
+            [cid] => 87
+            [tid] => 3
+        )
+
+    [2] => Array
+        (
+            [gid] => 13
+            [gname] => lululemon丨Metal Vent Tech透气专家男士长袖运动衫
+            [gnumber] =>  LM3B70D
+            [unit] => 件
+            [marketprice] => 650
+            [shopprice] => 650
+            [pic] => /tpShop/tpShop/Shop/Uploads/2017-06-13/593fdf98ae87e.jpg
+            [click] => 65535
+            [total] => 123
+            [time] => 1497358304
+            [aid] => 1
+            [bid] => Array
+                (
+                    [bid] => 22
+                    [bname] => CATALO
+                    [brandlogo] => /tpShop/tpShop/Shop/Uploads/2017-06-13/593fa50f4e18f.jpg
+                    [bsort] => 0
+                    [ishot] => 1
+                )
+
+            [cid] => 31
+            [tid] => 3
+        )
+
+)

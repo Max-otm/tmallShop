@@ -1,0 +1,1463 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #3C3C3C;
+	text-decoration: none;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+input {
+	-webkit-appearance: textfield;
+	background-color: white;
+	-webkit-rtl-ordering: logical;
+	user-select: text;
+	cursor: auto;
+	padding: 1px;
+	border-width: 2px;
+	border-style: inset;
+	border-color: initial;
+	border-image: initial;
+}
+
+ul,
+li {
+	list-style: none;
+	display: block;
+}
+
+body {
+	font: 12px/1.5 "microsoft yahei", "microsoft yahei", "\5b8b\4f53";
+}
+
+em {
+	font-style: normal;
+}
+
+.clearfix::after,
+.headerCon::after {
+	clear: both;
+}
+
+.clearfix::after,
+.clearfix::before,
+.headerCon::after,
+.headerCon::before {
+	display: table;
+	content: "";
+	overflow: hidden;
+}
+
+#mallPage {
+	width: auto;
+	min-width: 990px;
+	background-color: transparent;
+}
+
+
+/*标题导航开始*/
+
+.site-nav {
+	width: auto;
+	height: 35px;
+	position: relative !important;
+	background: #f2f2f2;
+	z-index: 99999;
+	-webkit-transform: translate3d(0, 0, 0);
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.site-nav .wrapper {
+	position: relative;
+	font-size: 12px;
+	color: #6c6c6c;
+	height: 35px;
+	width: 990px;
+	margin: 0 auto;
+}
+
+.site-nav .wrapper .login-info {
+	height: 35px;
+	line-height: 35px;
+	float: left;
+}
+
+.site-nav .wrapper .login-info .login {
+	float: left;
+	padding: 0 15px 0 0;
+}
+
+.site-nav .wrapper .login-info .login a {
+	color: #6c6c6c;
+}
+
+.site-nav .wrapper .login-info .login a:hover {
+	color: #F40;
+}
+
+.site-nav .wrapper .login-info .news {
+	display: inline-block;
+	width: 35px;
+}
+
+.site-nav .wrapper .login-info .news:hover {
+	color: #F40;
+}
+
+.site-nav .wrapper .login-info .phone {
+	color: #F40;
+	float: left;
+	padding: 0 15px 0 0;
+}
+
+
+/*右导航*/
+
+.site-nav .wrapper .quick-menu {
+	height: 35px;
+	line-height: 35px;
+	float: right;
+}
+
+.site-nav .wrapper .quick-menu li {
+	position: relative;
+}
+
+.site-nav .wrapper .quick-menu .home {
+	color: #F40;
+	float: left;
+	margin-right: 15px;
+}
+
+.menu {
+	float: left;
+	position: relative;
+	text-align: center;
+	margin-right: 15px;
+}
+
+.menu b {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	right: 6px;
+	top: 16px;
+	width: 0;
+	height: 0;
+	border-width: 3px;
+	border-style: solid dashed dashed;
+	border-color: #bbb transparent transparent;
+	font-size: 0;
+	line-height: 0;
+}
+
+.menu a {
+	color: #6c6c6c;
+	margin-left: 4px;
+	margin-right: 15px;
+}
+
+.menu .baobei {
+	display: none;
+	position: absolute;
+	top: 35px;
+	line-height: 35px;
+	left: -1px;
+	background-color: white;
+	width: 104px;
+	padding: 0 5px 0 5px;
+	z-index: 9999;
+}
+
+.menu .mai {
+	display: none;
+	position: absolute;
+	top: 35px;
+	line-height: 35px;
+	left: -1px;
+	background-color: white;
+	width: 104px;
+	padding: 0 5px 0 5px;
+	z-index: 9999;
+}
+
+.menu p {
+	text-align: left;
+}
+
+.menu:hover .mai {
+	display: block;
+}
+
+.menu .baobei a {
+	color: #6c6c6c;
+}
+
+.menu:hover a {
+	color: #6c6c6c;
+}
+
+.menu a:hover {
+	color: #F40;
+}
+
+.menu:hover .baobei {
+	display: block;
+}
+
+.menu:hover {
+	box-sizing: content-box;
+	background-color: white;
+}
+
+.site-nav .wrapper .quick-menu .buycar {
+	float: left;
+	margin-right: 15px;
+}
+
+.site-nav .wrapper .quick-menu .buycar .gouwuche {
+	color: #F40;
+	font-size: 12px;
+	margin-right: 2px;
+}
+
+.site-nav .wrapper .quick-menu .buycar a {
+	color: #6c6c6c;
+}
+
+.site-nav .wrapper .quick-menu .buycar a:hover {
+	color: #F40;
+}
+
+.site-nav .wrapper .quick-menu .net {
+	margin-right: 15px;
+	float: left;
+}
+
+.site-nav .wrapper .quick-menu .net a {
+	color: #6c6c6c;
+}
+
+.site-nav .wrapper .quick-menu .net a:hover {
+	color: #F40;
+}
+
+.site-nav .wrapper .quick-menu .shu {
+	float: left;
+	margin: 0 10px 0 5px;
+}
+
+.menu .support {
+	display: none;
+	position: absolute;
+	top: 35px;
+	line-height: 35px;
+	left: 0;
+	background-color: white;
+	padding: 0 5px 0 5px;
+	z-index: 9999;
+	white-space: nowrap;
+	width: auto;
+	overflow: hidden;
+	left: auto;
+}
+
+.menu:hover .support {
+	display: block;
+}
+
+.menu a .liebiao {
+	font-size: 10px;
+	color: red;
+}
+
+.net-nav {
+	display: none;
+	position: absolute;
+	border-width: 0 1px 1px;
+	right: 0;
+	left: auto;
+	text-align: left;
+	background: white;
+	padding: 25px 0;
+	z-index: 9999;
+	width: 1198px;
+	top: 35px;
+}
+
+.menu:hover .net-nav {
+	display: block;
+}
+
+.net-nav .site-list {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.net-nav .site-count {
+	padding-left: 30px;
+	overflow: hidden;
+	height: 200px;
+}
+
+.net-nav .site-count h2 {
+	font-size: 16px;
+	padding-bottom: 8px;
+	font-family: '\5FAE\8F6F\96C5\9ED1', arial, "\5b8b\4f53";
+	font-weight: 100;
+}
+
+.net-nav .site-count ul {
+	margin-right: -20px;
+	overflow: hidden;
+}
+
+.net-nav .site-hot {
+	border-right: 1px solid #F5F5F5;
+	float: left;
+	width: 274px;
+}
+
+.net-nav .site-hot h2 {
+	color: #f56a00;
+}
+
+.net-nav .site-hot h2 span {
+	margin-left: 6px;
+}
+
+.net-nav .site-list li {
+	width: 95px;
+	float: left;
+	padding: 6px 0;
+	line-height: 1.4;
+	overflow: hidden;
+}
+
+.net-nav .site-list .new {
+	position: absolute;
+	font-size: 12px;
+	top: 0;
+	margin-left: 2px;
+	color: #68BE00;
+}
+
+.net-nav .site-list .hot {
+	position: absolute;
+	font-size: 12px;
+	top: 0;
+	margin-left: 2px;
+	color: #FF4A18;
+}
+
+.net-nav a {
+	color: #666;
+	margin: 0 0;
+}
+
+.net-nav .site-hot a:hover {
+	color: #f56a00;
+	text-decoration: underline;
+}
+
+.net-nav .site-market {
+	border-right: 1px solid #F5F5F5;
+	float: left;
+	width: 374px;
+}
+
+.net-nav .site-market h2 {
+	color: #2263d4;
+}
+
+.net-nav .site-market a:hover {
+	color: #2263d4;
+	text-decoration: underline;
+}
+
+.net-nav .site-brand {
+	border-right: 1px solid #F5F5F5;
+	float: left;
+	width: 269px;
+}
+
+.net-nav .site-brand h2 {
+	color: #000000;
+}
+
+.net-nav .site-brand a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.net-nav .site-help {
+	padding-left: 30px;
+	float: left;
+	overflow: hidden;
+	height: 200px;
+}
+
+.net-nav .site-help h2 {
+	color: #A5;
+}
+
+.net-nav .site-help li {
+	float: none;
+}
+
+.net-nav .site-help a:hover {
+	color: #A5;
+	text-decoration: underline;
+}
+
+
+/*标题导航结束*/
+
+
+/*主体部分开始*/
+
+#content {
+	clear: both;
+	width: 990px;
+	margin: 0 auto;
+}
+
+
+/*头部开始*/
+
+.header {
+	padding: 20px 0 40px;
+	position: relative;
+	height: 35px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo a {
+	width: 181px;
+	height: 45px;
+	font-size: 35px;
+	line-height: 35px;
+	color: #f50;
+	position: relative;
+	display: inline-block;
+	background: url(../img/buycar/buycar.png) no-repeat -110px 0;
+}
+
+.search {
+	width: 515px;
+	float: right;
+	height: 35px;
+	background-color: #FF4400;
+	position: relative;
+}
+
+.search-trigger {
+	width: 74px;
+	position: absolute;
+	z-index: 1;
+	left: 3px;
+	top: 3px;
+	height: 29px;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #f5f5f5;
+	color: #6B6B6B;
+	background: #f5f5f5;
+	line-height: 29px;
+	text-align: center;
+}
+
+.inputbox {
+	width: 422px;
+	position: relative;
+}
+
+.search input {
+	padding: 3px;
+	padding-left: 4px;
+	display: block;
+	position: absolute;
+	width: 336px;
+	top: 3px;
+	right: 0;
+	border: none;
+	height: 23px;
+}
+
+.search-btn {
+	width: 93px;
+	float: right;
+	line-height: 35px;
+	background: url(../img/buycar/manytype.png) no-repeat -259px -3px;
+	text-indent: -999em;
+	border: none;
+	z-index: 1;
+}
+
+
+/*头部结束*/
+
+.cart {
+	min-height: 400px;
+}
+
+.cart-filter-bar {
+	overflow: hidden;
+	font-size: 12px;
+	position: relative;
+}
+
+.switch-cart {
+	height: 33px;
+	overflow: hidden;
+}
+
+.btn-switch-cart {
+	float: left;
+	font-weight: 700;
+	font-size: 16px;
+	height: 16px;
+	line-height: 1.1;
+	font-family: 'Hiragino Sans GB', 'Lantinghei SC', 'Microsoft Yahei', SimSun;
+	text-align: center;
+	padding: 0 0 15px 0;
+	cursor: pointer;
+	margin-left: -1px;
+}
+
+.btn-switch-cart a {
+	padding-left: 15px;
+}
+
+.switch-cart .current em {
+	color: #f40;
+}
+
+.btn-switch-cart .number {
+	color: #f40;
+	font-size: 14px;
+	margin: 0 30px 0 5px;
+	font-weight: 400;
+}
+
+.btn-switch-cart .pipe {
+	width: 1px;
+	height: 12px;
+	display: inline-block;
+	background: #e8e8e8;
+}
+
+.switch-cart .disabled a {
+	cursor: not-allowed;
+}
+
+.cart-filter-bar .cart-sum {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 25px;
+	line-height: 25px;
+}
+
+.cart-sum .price {
+	font-family: Arial, Verdana;
+	font-weight: 700;
+	margin-right: 5px;
+	color: #f40;
+}
+
+.cart-sum .price em {
+	font-family: Verdana, Arial;
+	padding-left: 2px;
+	font-weight: 700;
+}
+
+.cart-sum .submit-btn {
+	display: inline-block;
+	width: 55px;
+	color: #fff;
+	background: #f40;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.cart-sum .submit-btn-disabled {
+	background: #aaa;
+	color: #fff;
+	cursor: not-allowed;
+}
+
+.wrap-line {
+	clear: both;
+	background: #e6e6e6;
+	height: 2px;
+	position: relative;
+}
+
+.wrap-line .floater {
+	background: #f40;
+	height: 2px;
+	width: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.cart-main {
+	min-height: 210px;
+}
+
+.cart-table-th {
+	overflow: hidden;
+	height: 50px;
+	line-height: 50px;
+	color: #3c3c3c;
+}
+
+.cart-table-th .th-chk {
+	width: 45px;
+	font-size: 12px;
+	text-align: left;
+	position: relative;
+	height: 50px;
+}
+
+.cart-table-th .th {
+	float: left;
+}
+
+.cart-table-th .th-chk .select-all {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 80px;
+}
+
+.select-all {
+	cursor: pointer;
+}
+
+.cart-table-th .th-chk .cart-checkbox {
+	margin: -1px 0 0 15px;
+	vertical-align: middle;
+}
+
+.cart-checkbox {
+	position: relative;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	overflow: hidden;
+}
+
+.cart-checkbox input {
+	position: absolute;
+	z-index: 0;
+}
+
+
+.th-item,
+.td-item {
+	width: 302px;
+}
+
+.th .td-inner {
+	padding: 0 0 0 10px;
+}
+
+.cart-table-th .th-item .td-inner {
+	padding-left: 91px;
+}
+
+.th-info,
+.td-info {
+	height: 50px;
+	width: 172px;
+	padding-right: 20px;
+}
+
+.th-price,
+.td-price {
+	width: 120px;
+}
+
+.th-amount,
+.td-amount {
+	width: 120px;
+}
+
+.th-sum,
+.td-sum {
+	width: 105px;
+}
+
+.th-op,
+.td-op {
+	width: 84px;
+	padding: 0 0 0 15px;
+}
+
+.order-body {
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.shop-info {
+	position: relative;
+	z-index: 2;
+	line-height: 38px;
+	padding-left: 15px;
+}
+
+.shop-icon,
+.icon-B {
+	display: inline-block;
+	vertical-align: middle;
+	margin: -8px 6px 0 3px;
+}
+
+.shop-icon,
+.icon-B {
+	background: transparent url(../img/buycar/labeltype.png) no-repeat -9999px -9999px;
+}
+
+.icon-B {
+	width: 16px;
+	height: 16px;
+	background-position: -20px -105px;
+}
+
+.shop .ww-light {
+	margin-left: 15px;
+}
+
+.ww-light {
+	overflow: hidden;
+}
+
+#content .ww-light a {
+	background: url(../img/666.gif) -80px 0;
+}
+
+.ww-inline {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+
+.shop-coupon-trigger {
+	display: inline-block;
+	width: 57px;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 0 0 11px;
+	color: #f40;
+	background: url(../img/buycar/buycar.png);
+	background-position: -20px -75px;
+	margin-left: 10px;
+	position: relative;
+	cursor: pointer;
+}
+
+.shop-coupon-trigger .arrow {
+	position: absolute;
+	display: block;
+	width: 5px;
+	height: 3px;
+	right: 9px;
+	top: 11px;
+	background: url(../img/buycar/buycar.png);
+	background-position: 0 -65px;
+}
+
+.item-content .td-sum {
+	color: #f40;
+	font-weight: 700;
+}
+
+.number,
+.price {
+	font-family: Verdana, Tahoma, arial;
+}
+
+.td-op a {
+	display: block;
+}
+
+.poolorder-info {
+	height: 30px;
+	border-top: 1px solid #e8e8e8;
+	overflow: hidden;
+}
+
+.poolorder-info .wrap {
+	float: right;
+	margin-right: 44px;
+	line-height: 30px;
+}
+
+.poolorder-info .wrap .text {
+	display: inline-block;
+	cursor: default;
+	font-family: arial;
+	width: 850px;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 10px;
+	margin: 5px 0;
+	line-height: 20px;
+}
+
+.poolorder-info .wrap .text .satisfied {
+	color: #f40;
+}
+
+.poolorder-info .wrap .go-pool {
+	cursor: pointer;
+	vertical-align: middle;
+	padding-left: 10px;
+	border-left: 1px solid #e8e8e8;
+}
+
+.poolorder-info .wrap .arrow {
+	display: inline-block;
+	width: 5px;
+	height: 3px;
+	position: relative;
+	top: -3px;
+	background: url(../img/buycar/buycar.png);
+	background-position: 0 -38px;
+	margin-left: 5px;
+}
+
+.go-pool:hover a {
+	color: #f40;
+	text-decoration: underline;
+}
+
+.go-pool:hover .arrow {
+	background-position: 0 -65px;
+}
+
+
+/*订单主体开始*/
+
+.order-content {
+	border: 1px solid #ccc;
+}
+
+.bundle-hd {
+	height: 28px;
+	padding-top: 9px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.bundle-hd .td-chk {
+	height: 24px;
+	float: left;
+}
+
+.th-chk,
+.td-chk {
+	width: 45px;
+}
+
+.bundle-hd .bd-title {
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	color: #6c6c6c;
+	margin-right: 15px;
+	padding: 0 8px;
+	background: #e7e7e7;
+	position: relative;
+}
+
+.bundle-hd .icon-bd-title {
+	position: absolute;
+	bottom: -7px;
+	left: 50%;
+	width: 11px;
+	margin-left: -6px;
+	height: 6px;
+	background: url(../img/buycar/buycar.png);
+	background-position: 0 -145px;
+}
+
+.bundle-hd .bd-promos {
+	float: left;
+	color: #6c6c6c;
+	line-height: 22px;
+}
+
+.bundle-hd .bd-has-promo {
+	max-width: 400px;
+	height: 20px;
+	overflow: hidden;
+	color: #f40;
+	float: left;
+	font-family: verdana;
+}
+
+.bundle-hd .bd-promos .act-promo {
+	margin-right: 20px;
+	float: left;
+}
+
+.item-body {
+	position: relative;
+}
+
+.item-content {
+	min-height: 119px;
+}
+
+.td-chk .cart-checkbox {
+	margin: 0 10px 0 0;
+	float: right;
+}
+
+.td-inner {
+	padding-top: 20px;
+}
+
+.item-content .td {
+	float: left;
+	min-height: 119px;
+	overflow: hidden;
+}
+#CheckBoxItem{
+	margin-left:15px;
+}
+.item-content .item-pic img {
+	max-height: 80px;
+	max-width: 80px;
+	vertical-align: middle;
+}
+
+.item-content .item-pic a {
+	display: table-cell;
+	width: 80px;
+	height: 80px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.td-item .item-info {
+	margin: -3px 0 0 91px;
+	padding-right: 25px;
+}
+
+.td-item .item-basic-info {
+	min-height: 40px;
+}
+
+.item-content .item-pic {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #eee;
+	float: left;
+	overflow: hidden;
+}
+
+.item-content .item-title {
+	font-size: 12px;
+	display: block;
+	max-height: 36px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.item-info .promo-logos {
+	overflow: hidden;
+	min-height: 26px;
+}
+
+.item-icon-list .item-icon {
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.item-content .price-content {
+	padding: 8px 0 0 10px;
+	line-height: 1;
+	width: 74px;
+}
+
+.item-content .td-price .td-inner {
+	padding-top: 12px;
+}
+
+.item-content .td-price .price-line {
+	padding: 0 0 4px 0;
+}
+
+.item-content .price-original {
+	color: #9c9c9c;
+	text-decoration: line-through;
+	font-family: Verdana, Tahoma, arial;
+}
+
+.item-content .price-now {
+	color: #3c3c3c;
+	font-weight: 700;
+	font-family: Verdana, Tahoma, arial;
+}
+
+
+/*promo :商品广告,推销*/
+
+.promo-main .promo-content {
+	width: 65px;
+	padding: 0 17px 0 0;
+	position: relative;
+	height: 23px;
+	line-height: 23px;
+	border: 1px solid #ffe1d3;
+	text-align: center;
+	border-radius: 2px;
+	color: #f40;
+	background: #fff0e7;
+}
+
+.promo-main .arrow {
+	right: 12px;
+	top: 10px;
+	width: 5px;
+	height: 3px;
+	position: absolute;
+	display: block;
+	background: url(../img/buycar/buycar.png);
+	background-position: 0 -65px;
+}
+
+
+/*总数*/
+
+.item-content .item-amount {
+	height: 25px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	width: 77px;
+}
+
+
+/*有减号和无减号*/
+
+.item-content .item-amount .minus,
+.item-content .item-amount .no-minus {
+	border-right-color: transparent;
+	left: 0;
+}
+
+.item-content .item-amount a {
+	display: block;
+	height: 23px;
+	width: 17px;
+	border: 1px solid #e5e5e5;
+	background: #f0f0f0;
+	text-align: center;
+	line-height: 23px;
+	color: #444;
+	position: absolute;
+	top: 0;
+}
+
+.item-content .text-amount {
+	width: 39px;
+	height: 15px;
+	line-height: 15px;
+	border: 1px solid #aaa;
+	color: #343434;
+	text-align: center;
+	padding: 4px 0;
+	background-color: #fff;
+	position: absolute;
+	z-index: 2;
+	left: 18px;
+	top: 0;
+}
+
+
+/*有加和无加*/
+
+.item-content .item-amount .plus,
+.item-content .item-amount .no-plus {
+	border-left-color: transparent;
+	right: 0;
+}
+
+
+/*订单主体结束*/
+
+
+/*结算开始*/
+
+
+/*浮动 条 包*/
+
+
+/*已选商品开始*/
+
+.group-wrapper {
+	position: absolute;
+	bottom: 49px;
+	width: 100%;
+	z-index: 10001;
+	background-color: #fff;
+	display: none;
+}
+
+.group-content {
+	border: 1px solid #f40;
+	background: #fff;
+}
+
+.single-group {
+	padding: 15px 54px;
+}
+
+.single-group .scrollable-content {
+	height: 82px;
+	overflow: hidden;
+	position: relative;
+}
+
+.s-item {
+	position: relative;
+	float: left;
+	margin: 0 14px;
+}
+
+.single-group .item-pic {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	*display: block;
+	*font-family: Arial;
+	*line-height: 1;
+	*font-size: 70px;
+}
+
+.single-group .item-pic {
+	border: 1px solid #ccc;
+	width: 80px;
+	height: 80px;
+}
+
+.group-wrapper .arrow {
+	position: absolute;
+	background: url(../img/buycar/downarrow.png) no-repeat;
+	bottom: -13px;
+	right: 46px;
+	margin-left: -4px;
+	width: 13px;
+	height: 14px;
+}
+
+
+/*已选商品结束*/
+
+.float-bar {
+	height: 50px;
+	background: #E5E5E5;
+	position: relative;
+}
+
+.float-bar .select-all {
+	float: left;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 5px;
+}
+
+.select-all .cart-checkbox {
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+.float-bar .operations {
+	float: left;
+	line-height: 50px;
+	height: 50px;
+}
+
+.float-bar .operations a {
+	margin-left: 25px;
+	float: left;
+}
+
+.float-bar .float-bar-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 4;
+	padding-left: 20px;
+}
+
+.float-bar .amount-sum,
+.float-bar .price-sum {
+	height: 48px;
+	color: #3c3c3c;
+	float: left;
+}
+
+.float-bar .txt {
+	line-height: 48px;
+}
+
+.float-bar .amount-sum em {
+	line-height: 50px;
+	padding: 0 5px;
+}
+
+.float-bar .amount-sum em,
+.float-bar .price-sum .price em {
+	color: #f40;
+	font-weight: 700;
+	font-size: 18px;
+	font-family: tohoma, arial;
+}
+
+.float-bar .amount-sum .arrow {
+	display: inline-block;
+	width: 5px;
+	height: 6px;
+	background: url(../img/buycar/buycar.png);
+	background-position: 0 -115px;
+	margin: 21px 10px 0 6px;
+}
+
+.show-selected-items .float-bar-right .amount-sum .arrow {
+	background-position: 0 -125px;
+}
+
+.float-bar .check-cod {
+	display: none;
+	float: left;
+	margin-right: 10px;
+	padding-left: 10px;
+	line-height: 48px;
+	color: #666;
+}
+
+.check-cod .icon-cod {
+	display: inline-block;
+	background: url(../img/buycar/buycar.png);
+	background-position: -95px -105px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin: -2px 5px 0 0;
+}
+
+.s-checkbox {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../img/buycar/buycar.png);
+	background-position: 0 0;
+	vertical-align: middle;
+	cursor: pointer;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+.float-bar .pipe {
+	float: left;
+	margin: 0 10px 0 18px;
+	width: 1px;
+	height: 12px;
+}
+
+.float-bar .price-sum .txt,
+.float-bar .amount-sum .txt {
+	float: left;
+}
+
+.float-bar .price-sum .price {
+	color: #f40;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 48px;
+	font-family: Arial;
+	vertical-align: middle;
+	float: left;
+}
+
+.float-bar .price-sum .price em {
+	font-weight: 700;
+	font-size: 22px;
+	padding: 0 3px;
+}
+
+.total-symbol {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.float-bar .btn-area {
+	float: left;
+}
+
+.float-bar .submit-btn {
+	display: inline-block;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	background: #f40;
+	text-align: center;
+	font-family: 'Lantinghei SC', 'Microsoft Yahei';
+	font-size: 20px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.float-bar .submit-btn {
+	color: #fff;
+}
+
+.float-bar .submit-btn-disabled,
+.float-bar .submit-btn-disabled:link,
+.float-bar .submit-btn-disabled:hover {
+	background: #B0B0B0;
+	color: #fff;
+	border-left: 1px solid #e7e7e7;
+	width: 119px;
+	cursor: not-allowed;
+	text-decoration: none;
+}
+
+
+/*结算结束*/
+
+
+/*主体部分结束*/
+
+
+/*脚部开始*/
+
+#footer {
+	width: 990px;
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	background: #fff;
+	position: relative;
+}
+
+dl a {
+	display: block;
+	width: 100px;
+	overflow: hidden;
+	text-align: left;
+	height: 20px;
+	line-height: 20px;
+	color: #6C6C6C;
+}
+
+#tmall-copyright {
+	background: #ffffff;
+	text-align: left;
+	min-height: 177px;
+}
+
+#tmall-copyright .tmall-info {
+	border-top: 1px solid #ddd;
+	width: 990px;
+	margin: 0 auto;
+	line-height: 25px;
+}
+
+#footer p {
+	padding: 5px 0;
+}
+
+#footer p a {
+	margin-right: 3px;
+	color: #6C6C6C;
+}
+
+#footer p a:hover {
+	color: #FF4400;
+}
+
+#tmall-copyright .otherlink {
+	width: 990px;
+	margin: 0 auto;
+	color: #00000;
+	line-height: 25px;
+}
+
+#tmall-copyright .footer-copyright {
+	border-top: 1px solid #ddd;
+	line-height: 20px;
+	width: 990px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	color: #6c6c6c;
+}
+
+#tmall-copyright .footer-copyright a {
+	color: #6c6c6c;
+}
+
+#tmall-copyright .footer-copyright b {
+	color: #686868;
+	font-weight: 400;
+}
+
+#server-num {
+	color: #FFFFFF;
+	font-size: 11px;
+	background: #FFFFFF;
+}
+
+#footer .about {
+	padding-bottom: 8px;
+	overflow: hidden;
+}
+
+#footer .about span {
+	margin: 0 4px;
+}
+
+#footer .about a {
+	white-space: nowrap;
+	color: #6c6c6c;
+	text-decoration: none;
+}
+
+#footer .about b {
+	display: inline;
+	margin: 0 3px;
+	font-weight: 400;
+	color: #ddd;
+}
+
+
+/*脚部结束*/

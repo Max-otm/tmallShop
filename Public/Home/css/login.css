@@ -1,0 +1,392 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none;
+	display: block;
+}
+
+body {
+	font: 12px/1.5 "microsoft yahei", "microsoft yahei", "\5b8b\4f53";
+	background-color: #f5f5f5;
+}
+
+.clearfix::after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.clearfix::before {
+	display: table;
+	content: "";
+	overflow: hidden;
+}
+
+#loginpaper {
+	min-width: 1190px;
+	background-color: white;
+}
+
+
+/*头部*/
+
+#loginpaper .header {
+	padding: 22px 0px;
+	height: 44px;
+	width: 1190px;
+	margin: auto;
+}
+
+#loginpaper .header a img {
+	margin-top: 8px;
+	width: 190px;
+}
+
+#loginpaper .content {
+	position: relative;
+	width: 100%;
+	margin-bottom: 40px;
+	background-color: rgb(253, 10, 62);
+}
+
+#loginpaper .content .inner {
+	position: relative;
+	width: 1190px;
+	margin: auto;
+}
+
+#loginpaper .content .inner .crazy {
+	display: block;
+	position: absolute;
+	top: 80px;
+	left: 75px;
+	width: 630px;
+	height: 440px;
+	border: none;
+	outline: none;
+}
+
+
+/*登录*/
+
+#loginpaper .login-form {
+	display: block;
+	position: absolute;
+	top: 80px;
+	right: 75px;
+	width: 350px;
+	height: 440px;
+	border: none;
+	outline: none;
+}
+
+.login-form .phonelogin {
+	top: 12px;
+	width: 52px;
+	height: 52px;
+	line-height: 52px;
+	position: absolute;
+	right: 5px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	z-index: 1;
+}
+
+.login-form .phonelogin:hover {
+	cursor: pointer;
+}
+
+.login-form .phonelogin i {
+	display: block;
+	font-size: 52px;
+	color: #FF0036;
+}
+
+.login-form .login-tip {
+	top: 10px;
+	position: absolute;
+	right: 58px;
+	z-index: 1;
+}
+
+.login-form .login-tip .pptip {
+	border: 1px solid #f3d995;
+	height: 16px;
+	line-height: 16px;
+	padding: 5px 20px 5px 15px;
+	background: #fefcee;
+	position: relative;
+}
+
+.login-form .login-tip .pptip .arrow {
+	top: 8px;
+	right: 0;
+	position: absolute;
+	z-index: 10;
+}
+
+
+/*.login-form .login-tip .pptip .arrow em {
+	top: 0;
+	left: 1px;
+	border-left-color: #f3d995;
+	border-width: 6px 0 6px 6px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: rgba(255, 255, 255, 0);
+	border-style: solid;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.login-form .login-tip .pptip .arrow span {
+	z-index: 1;
+	border-left-color: #fefcee;
+	border-width: 6px 0 6px 6px;
+	position: absolute;
+	width: 3;
+	height: 3;
+	border-color: rgba(255, 255, 255, 0);
+	border-style: solid;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}*/
+
+.login-form .login-tip .pptip .tipcontent {
+	color: #df9c1f;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.login-form .loginbox {
+	width: 350px;
+	height: 100%;
+	padding: 0;
+	color: #6c6c6c;
+	background: #fff;
+	position: relative;
+}
+
+.login-form .loginbox .bd {
+	padding: 25px 26px 20px;
+}
+
+.login-form .loginbox .bd .title {
+	margin-top: 15px;
+	padding-bottom: 0;
+	height: 18px;
+	line-height: 18px;
+	font-size: 16px;
+	color: #3c3c3c;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.login-form .loginbox .bd form {
+	width: 100%;
+}
+
+.login-form .loginbox .bd form .username-field {
+	margin-top: 25px;
+	position: relative;
+}
+
+.login-form .loginbox .bd form .username-field .user {
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	border-right: 1px solid #F5F5F5;
+}
+
+.login-form .loginbox .bd form .username-field .password {
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	border-right: 1px solid #F5F5F5;
+}
+
+.login-form .loginbox .bd form .username {
+	width: 240px;
+	font-size: 14px;
+	line-height: 18px;
+	height: 18px;
+	padding: 11px 8px 11px 50px;
+	border: 1px solid #ddd;
+	margin-bottom: 30px;
+}
+
+.login-form .loginbox .bd form .submit {
+	width: 300px;
+	height: 42px;
+	background-color: #ff0036;
+}
+
+.login-form .loginbox .bd form .submit:hover {
+	background-color: rgba(255, 0, 54, .8);
+}
+
+.login-form .loginbox .bd form button {
+	width: 300px;
+	height: 42px;
+	border: 0;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	line-height: 42px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	background: #f40;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+
+/*扫码*/
+
+.login-form .loginbox .bd .qrmain {
+	position: relative;
+	margin-top: 24px;
+	height: 140px;
+}
+
+.login-form .loginbox .bd .qrmain .qrimg {
+	position: absolute;
+	left: 80px;
+	top: 0;
+	z-index: 100;
+}
+
+.login-form .loginbox .bd .qrdesc {
+	overflow: hidden;
+	width: 188px;
+	margin: 24px auto 0;
+}
+
+.login-form .loginbox .bd .qrdesc .iconfont {
+	float: left;
+	color: #ff0036;
+	font-size: 34px;
+	line-height: 36px;
+	margin-right: 10px;
+}
+
+.login-form .loginbox .bd .qrdesc p {
+	width: 144px;
+	line-height: 18px;
+	color: #6c6c6c;
+	font-size: 12px;
+	float: left;
+}
+.login-form .loginbox .bd .qrdesc p a{
+	color:#ff0036;
+}
+.login-form .loginbox .toregister {
+	color: #A5A5A5;
+	display: block;
+	line-height: 30px;
+	text-align: right;
+	padding: 5px 30px;
+}
+
+.login-form .loginbox .toregister:hover {
+	text-decoration: underline;
+}
+
+
+/*脚部*/
+
+#footer {
+	width: 100%;
+	clear: both;
+	margin: 0;
+	text-align: center;
+	background: #fff;
+	position: relative;
+}
+
+dl a {
+	display: block;
+	width: 100px;
+	overflow: hidden;
+	text-align: left;
+	height: 20px;
+	line-height: 20px;
+	color: #00000;
+}
+
+#tmall-copyright {
+	background: #ffffff;
+	text-align: left;
+	min-height: 177px;
+}
+
+#tmall-copyright .tmall-info {
+	width: 1190px;
+	margin: 0 auto;
+	line-height: 25px;
+}
+
+#footer p {
+	padding: 5px 0;
+}
+
+#footer p a {
+	margin-right: 3px;
+	color: black;
+}
+
+#tmall-copyright .otherlink {
+	width: 1190px;
+	margin: 0 auto;
+	color: #00000;
+	line-height: 25px;
+}
+
+#tmall-copyright .footer-copyright {
+	line-height: 20px;
+	width: 1190px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	color: #a4a4a4;
+}
+
+#tmall-copyright .footer-copyright a {
+	color: #a4a4a4;
+	margin-right: 65px;
+}
+
+#tmall-copyright .footer-copyright b {
+	display: block;
+	color: #686868;
+	font-weight: 400;
+}
+
+#server-num {
+	color: #FFFFFF;
+	font-size: 11px;
+	background: #FFFFFF;
+}

@@ -1,0 +1,135 @@
+<layout name="../../../Public/ordermaster"/>
+<div class="bought">
+    <div class="tabs">
+        <a href="{:u('index')}" class="tabs-item ">
+  									<span class="item-mod">
+  										<span class="item-text">所有订单</span>
+  									<span class="item-count"></span>
+  									</span>
+            <span class="right-mod"></span>
+        </a>
+        <a href="{:u('nopay')}" class="tabs-item">
+  									<span class="item-mod">
+  										<span class="item-text">待付款</span>
+  									<span class="item-count"></span>
+  									</span>
+            <span class="right-mod"></span>
+        </a>
+        <a href="{:u('haspost')}" class="tabs-item">
+  									<span class="item-mod">
+  										<span class="item-text">待发货</span>
+  									<span class="item-count"></span>
+  									</span>
+            <span class="right-mod"></span>
+        </a>
+        <a href="{:u('noreceive')}" class="tabs-item selected">
+  									<span class="item-mod">
+  										<span class="item-text">已发货</span><span class="item-count"></span>
+  									</span>
+            <span class="right-mod"></span>
+        </a>
+        <a href="{:u('already')}" class="tabs-item">
+  									<span class="item-mod">
+  										<span class="item-text">已完成</span><span class="item-count"></span>
+  									</span>
+            <span class="right-mod"></span>
+        </a>
+
+        <div class="recycle">
+            <div class="recycle-mod">
+                <a href="#" class="recycle-content"> <img src="__PUBLIC__/Home/img/delete.png" alt="" style="margin-right: 5px;" /><span class="text">订单回收站</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="search-mod">
+        <input type="text" name="" id="" value="" class="search" placeholder="输入商品标题或订单号进行搜索" /><button type="submit" class="search-btn">订单搜索</button>
+        <button class="more-search">
+            <span>更多筛选条件</span>
+            <img src="__PUBLIC__/Home/img/下箭头.png"/>
+        </button>
+    </div>
+    <div class="th">
+        <div class="good">宝贝</div>
+        <div class="price">单价</div>
+        <div class="num">数量</div>
+        <div class="good-opt">商品操作</div>
+        <div class="good-pay">实付款</div>
+        <div class="deal-state">交易状态</div>
+        <div class="deal-opt">交易操作</div>
+    </div>
+    <foreach name="orderData" item="v">
+        <div class="order">
+            <div class="order-content">
+                <div class="head">
+                    <div class="dingdan">
+                        <div class="time">
+                            <input type="checkbox" name="" id="" value="" /><span name="time" class="order-time">{$v['time']|date="Y-m-d H:i",###}</span><span class="order-num">订单号:<span>{$v['glnumber']}</span></span>
+                        </div>
+                        <div class="merchant">
+  												<span>
+  												<img src="__PUBLIC__/Home/img/merchant.png" />
+  												<a href="#">迪信通官方旗舰店</a>
+  												</span>
+                        </div>
+                        <div class="opt">
+                            <a href="#"><img src="__PUBLIC__/Home/img/wanwan.png" /></a>
+                        </div>
+                        <div class="delete">
+                            <a href="#"><img src="__PUBLIC__/Home/img/delete.png" /></a>
+                        </div>
+                    </div>
+                </div>
+                <table class="detail">
+                    <tr style="height: 108px;">
+                        <td class="good-detail " style="width: 38%;">
+                            <div class="mod-content">
+                                <a href="#"><img src="{$v['pic']}" class="pic"/></a>
+                                <div style="margin-left: 90px;">
+                                    <p>
+                                        <a href="#" style="font-size: 12px;">{$v['gname']}</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">{$v['spec']}</a>
+                                    </p>
+                                    <p>
+                                        <a href="#"><img src="__PUBLIC__/Home/img/baozhang.png" /></a>
+                                        <a href="#"><img src="__PUBLIC__/Home/img/zhengpin.png" /></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="price-detail" style="width: 10%; ">
+                            <p>￥{$v['shopprice']}.00</p>
+                        </td>
+                        <td class="num-detail" style="width: 5%;">
+                            <p>{$v['quantity']}</p>
+                        </td>
+                        <td class="gopt-detail" style="width: 12%;">
+                            <p>
+                                <a href="#">申请售后</a>
+                            </p>
+                            <p>
+                                <a href="#">投诉卖家</a>
+                            </p>
+                        </td>
+                        <td class="gpay-detail" style="width: 12%;">
+                            <p><strong style="font-weight: bolder;">￥{$v['subtotal']}.00</strong></p>
+                            <p>({$v['status']})</p>
+                        </td>
+                        <td class="gopt-detail" style="width: 11%;">
+                            <p>
+                                <a href="#">交易成功</a>
+                            </p>
+
+                        </td>
+                        <td class="deopt-detail" style="width: 11%;">
+                            <p>
+                                <a href="#">评价</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </foreach>
+</div>

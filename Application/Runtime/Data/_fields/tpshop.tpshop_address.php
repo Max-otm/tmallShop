@@ -1,0 +1,1 @@
+a:9:{i:0;s:4:"adid";i:1;s:5:"iscur";i:2;s:9:"consignee";i:3;s:5:"phone";i:4;s:4:"area";i:5;s:7:"address";i:6;s:3:"uid";s:3:"_pk";s:4:"adid";s:5:"_type";a:7:{s:4:"adid";s:7:"int(11)";s:5:"iscur";s:15:"int(1) unsigned";s:9:"consignee";s:11:"varchar(45)";s:5:"phone";s:11:"varchar(45)";s:4:"area";s:11:"varchar(45)";s:7:"address";s:11:"varchar(45)";s:3:"uid";s:7:"int(11)";}}

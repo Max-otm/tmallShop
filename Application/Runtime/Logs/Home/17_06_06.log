@@ -1,0 +1,97 @@
+[ 2017-06-06T13:50:49+08:00 ] ::1 /phpStorm/test/tpShop/Shop/index.php/admin/type/save.html['tid'=%3E$v['2']])%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 22 D:\phpStudy\WWW\phpStorm\test\tpShop\Shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+ERR: 无法加载控制器:Type
+
+[ 2017-06-06T13:51:15+08:00 ] ::1 /phpStorm/test/tpShop/Shop/index.php/admin/type/save.html['tid'=%3E$v['2']])%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 22 D:\phpStudy\WWW\phpStorm\test\tpShop\Shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+ERR: 无法加载控制器:Type
+
+[ 2017-06-06T13:52:29+08:00 ] ::1 /phpStorm/test/tpShop/Shop/index.php/admin/type/save.html['tid'=%3E$v['2']])%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 22 D:\phpStudy\WWW\phpStorm\test\tpShop\Shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+ERR: 无法加载控制器:Type
+
+[ 2017-06-06T13:52:51+08:00 ] ::1 /phpStorm/test/tpShop/Shop/index.php/admin/type/save.html['tid'=%3E$v['2']])%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 22 D:\phpStudy\WWW\phpStorm\test\tpShop\Shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003508s ]
+ERR: 无法加载控制器:Type
+
+[ 2017-06-06T13:53:15+08:00 ] ::1 /phpStorm/test/tpShop/Shop/index.php/admin/type/save.html['tid'=%3E$v['2']])%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 22 D:\phpStudy\WWW\phpStorm\test\tpShop\Shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002513s ]
+ERR: 无法加载控制器:Type
+
+[ 2017-06-06T19:49:34+08:00 ] ::1 /tpShop/tpShop/Shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `tpshop_user` [ RunTime:0.1758s ]
+SQL: SELECT * FROM `tpshop_user`  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2017-06-06T19:49:51+08:00 ] ::1 /tpShop/tpShop/Shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `tpshop_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tpshop_user`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-06-06T19:50:42+08:00 ] ::1 /tpShop/tpShop/Shop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+SQL: SHOW COLUMNS FROM `tpshop_user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `tpshop_user`  [ RunTime:0.0047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+

@@ -1,0 +1,1 @@
+a:7:{i:0;s:4:"gtid";i:1;s:7:"gtvalue";i:2;s:5:"added";i:3;s:4:"taid";i:4;s:3:"gid";s:3:"_pk";s:4:"gtid";s:5:"_type";a:5:{s:4:"gtid";s:16:"int(10) unsigned";s:7:"gtvalue";s:8:"char(15)";s:5:"added";s:13:"decimal(10,0)";s:4:"taid";s:16:"int(10) unsigned";s:3:"gid";s:16:"int(10) unsigned";}}

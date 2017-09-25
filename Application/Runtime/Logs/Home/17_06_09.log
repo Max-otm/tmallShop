@@ -1,0 +1,14 @@
+[ 2017-06-09T10:01:15+08:00 ] ::1 /tpShop/tpShop/Shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002086s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003104s ]
+SQL: SHOW COLUMNS FROM `tpshop_user` [ RunTime:0.1248s ]
+SQL: SELECT * FROM `tpshop_user`  [ RunTime:0.0256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+

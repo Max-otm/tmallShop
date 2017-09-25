@@ -1,0 +1,30 @@
+
+            [oid] => 1
+            [number] => 2
+            [consignee] => 涂老二
+            [address] => 江西,南昌,青山湖区,不知道你想去哪里呢
+            [phone] => 15979076441
+            [total] => 123
+            [time] => 1493735804
+            [remark] => faf aaf
+            [status] => 待发货
+            [uid] => 1
+            [olid] => 1
+            [quantity] => 1
+            [subtotal] => 650
+            [explain] =>
+            [gid] => 13
+            [glid] => 19
+            [glnumber] => 231134134134
+            [gname] => lululemon丨Metal Vent Tech透气专家男士长袖运动衫
+            [gnumber] =>  LM3B70D
+            [unit] => 件
+            [marketprice] => 650
+            [shopprice] => 650
+            [pic] => /tpShop/tpShop/Shop/Uploads/2017-06-13/593fdf98ae87e.jpg
+            [click] => 65535
+            [aid] => 1
+            [bid] => 22
+            [cid] => 94
+            [tid] => 3
+

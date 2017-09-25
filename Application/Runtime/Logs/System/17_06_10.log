@@ -1,0 +1,564 @@
+[ 2017-06-10T12:31:38+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0488s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2.jpg','593b762999f27.jpg','2017-06-10/','jpg','1497069097','64911','','') [ RunTime:0.0561s ]
+
+[ 2017-06-10T12:32:04+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0043s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21.jpg','593b764379c0f.jpg','2017-06-10/','jpg','1497069123','70933','','') [ RunTime:0.0721s ]
+
+[ 2017-06-10T12:33:00+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002363s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0051s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22.jpg','593b767b4e032.jpg','2017-06-10/','jpg','1497069179','51354','','') [ RunTime:0.0971s ]
+
+[ 2017-06-10T12:33:01+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0668s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23.jpg','593b767c6c814.jpg','2017-06-10/','jpg','1497069180','49761','','') [ RunTime:0.0469s ]
+
+[ 2017-06-10T12:33:02+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0759s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24.jpg','593b767d92794.jpg','2017-06-10/','jpg','1497069181','50717','','') [ RunTime:0.0794s ]
+
+[ 2017-06-10T12:34:25+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0053s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2bg.jpg','593b76d0b9aa2.jpg','2017-06-10/','jpg','1497069264','201315','','') [ RunTime:0.0971s ]
+
+[ 2017-06-10T12:34:35+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0044s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2bg.jpg','593b76da97073.jpg','2017-06-10/','jpg','1497069274','201315','','') [ RunTime:0.0643s ]
+
+[ 2017-06-10T13:14:34+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0118s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21.jpg','593b803955746.jpg','2017-06-10/','jpg','1497071673','70933','','') [ RunTime:0.1094s ]
+
+[ 2017-06-10T13:14:35+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004291s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0207s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24.jpg','593b803a90220.jpg','2017-06-10/','jpg','1497071674','50717','','') [ RunTime:0.0626s ]
+
+[ 2017-06-10T13:14:36+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0454s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23.jpg','593b803bae8f3.jpg','2017-06-10/','jpg','1497071675','49761','','') [ RunTime:0.0683s ]
+
+[ 2017-06-10T13:14:38+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0827s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22.jpg','593b803cd93f6.jpg','2017-06-10/','jpg','1497071676','51354','','') [ RunTime:0.0773s ]
+
+[ 2017-06-10T13:21:37+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003091s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0074s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22.jpg','593b81dfea1bd.jpg','2017-06-10/','jpg','1497072095','51354','','') [ RunTime:0.0903s ]
+
+[ 2017-06-10T13:21:38+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0359s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21.jpg','593b81e11c5d3.jpg','2017-06-10/','jpg','1497072097','70933','','') [ RunTime:0.0476s ]
+
+[ 2017-06-10T13:21:39+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0573s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23.jpg','593b81e23f86e.jpg','2017-06-10/','jpg','1497072098','49761','','') [ RunTime:0.0850s ]
+
+[ 2017-06-10T13:21:40+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002254s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0059s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24.jpg','593b81e36fda9.jpg','2017-06-10/','jpg','1497072099','50717','','') [ RunTime:0.0936s ]
+
+[ 2017-06-10T13:30:09+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0066s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2.jpg','593b83e001dd0.jpg','2017-06-10/','jpg','1497072608','64911','','') [ RunTime:0.1865s ]
+
+[ 2017-06-10T13:30:19+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.004158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005632s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0115s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21.jpg','593b83e9ebd5b.jpg','2017-06-10/','jpg','1497072617','70933','','') [ RunTime:0.0879s ]
+
+[ 2017-06-10T13:30:20+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.1015s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22.jpg','593b83eb1a1b2.jpg','2017-06-10/','jpg','1497072619','51354','','') [ RunTime:0.0733s ]
+
+[ 2017-06-10T13:30:21+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004127s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0717s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23.jpg','593b83ec52518.jpg','2017-06-10/','jpg','1497072620','49761','','') [ RunTime:0.0846s ]
+
+[ 2017-06-10T13:30:22+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003292s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24.jpg','593b83ed8599a.jpg','2017-06-10/','jpg','1497072621','50717','','') [ RunTime:0.0570s ]
+
+[ 2017-06-10T13:30:37+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004153s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0064s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2bg.jpg','593b83fcb742e.jpg','2017-06-10/','jpg','1497072636','201315','','') [ RunTime:0.1006s ]
+
+[ 2017-06-10T13:42:16+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0072s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21.jpg','593b86b768c37.jpg','2017-06-10/','jpg','1497073335','70933','','') [ RunTime:0.0945s ]
+
+[ 2017-06-10T13:42:17+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0618s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22.jpg','593b86b88d8be.jpg','2017-06-10/','jpg','1497073336','51354','','') [ RunTime:0.0900s ]
+
+[ 2017-06-10T13:42:18+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0071s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23.jpg','593b86b9bf8bc.jpg','2017-06-10/','jpg','1497073337','49761','','') [ RunTime:0.1397s ]
+
+[ 2017-06-10T13:42:20+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003058s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0870s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24.jpg','593b86baeffba.jpg','2017-06-10/','jpg','1497073338','50717','','') [ RunTime:0.0531s ]
+
+[ 2017-06-10T13:46:00+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2.jpg','593b87977a307.jpg','2017-06-10/','jpg','1497073559','64911','','') [ RunTime:0.0557s ]
+
+[ 2017-06-10T13:46:10+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002579s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0081s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21.jpg','593b87a160551.jpg','2017-06-10/','jpg','1497073569','70933','','') [ RunTime:0.1098s ]
+
+[ 2017-06-10T13:46:11+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003657s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0764s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22.jpg','593b87a2850e9.jpg','2017-06-10/','jpg','1497073570','51354','','') [ RunTime:0.0732s ]
+
+[ 2017-06-10T13:46:12+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0090s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23.jpg','593b87a3b343f.jpg','2017-06-10/','jpg','1497073571','49761','','') [ RunTime:0.0791s ]
+
+[ 2017-06-10T13:46:13+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0058s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24.jpg','593b87a4d023a.jpg','2017-06-10/','jpg','1497073572','50717','','') [ RunTime:0.1067s ]
+
+[ 2017-06-10T13:46:25+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0055s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2bg.jpg','593b87b028257.jpg','2017-06-10/','jpg','1497073584','201315','','') [ RunTime:0.0643s ]
+
+[ 2017-06-10T13:49:33+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0199s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21.jpg','593b886c4ef20.jpg','2017-06-10/','jpg','1497073772','70933','','') [ RunTime:0.0827s ]
+
+[ 2017-06-10T13:49:34+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0515s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22.jpg','593b886d6fb25.jpg','2017-06-10/','jpg','1497073773','51354','','') [ RunTime:0.0721s ]
+
+[ 2017-06-10T13:49:35+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0070s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23.jpg','593b886e975f7.jpg','2017-06-10/','jpg','1497073774','49761','','') [ RunTime:0.1023s ]
+
+[ 2017-06-10T13:49:36+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004194s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0065s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24.jpg','593b886fbc1be.jpg','2017-06-10/','jpg','1497073775','50717','','') [ RunTime:0.1116s ]
+
+[ 2017-06-10T13:50:18+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0061s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21.jpg','593b889928573.jpg','2017-06-10/','jpg','1497073817','70933','','') [ RunTime:0.0630s ]
+
+[ 2017-06-10T13:50:19+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0999s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24.jpg','593b889a46f2c.jpg','2017-06-10/','jpg','1497073818','50717','','') [ RunTime:0.0918s ]
+
+[ 2017-06-10T13:50:39+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0066s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2.jpg','593b88ade6501.jpg','2017-06-10/','jpg','1497073837','64911','','') [ RunTime:0.1031s ]
+
+[ 2017-06-10T14:00:17+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0068s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2.jpg','593b8af05d91e.jpg','2017-06-10/','jpg','1497074416','64911','','') [ RunTime:0.0963s ]
+
+[ 2017-06-10T14:00:55+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003233s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0061s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21.jpg','593b8b15f0a68.jpg','2017-06-10/','jpg','1497074453','70933','','') [ RunTime:0.0998s ]
+
+[ 2017-06-10T14:00:56+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0608s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22.jpg','593b8b171ee3c.jpg','2017-06-10/','jpg','1497074455','51354','','') [ RunTime:0.0619s ]
+
+[ 2017-06-10T14:00:57+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002772s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.1877s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23.jpg','593b8b1857d5f.jpg','2017-06-10/','jpg','1497074456','49761','','') [ RunTime:0.0647s ]
+
+[ 2017-06-10T14:00:58+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.1379s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24.jpg','593b8b19a2fa1.jpg','2017-06-10/','jpg','1497074457','50717','','') [ RunTime:0.0605s ]
+
+[ 2017-06-10T14:01:11+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003436s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0106s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','2bg.jpg','593b8b26d1fd9.jpg','2017-06-10/','jpg','1497074470','201315','','') [ RunTime:0.0673s ]
+
+[ 2017-06-10T14:05:55+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002185s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0058s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','3.jpg','593b8c42c7e69.jpg','2017-06-10/','jpg','1497074754','21188','','') [ RunTime:0.1146s ]
+
+[ 2017-06-10T14:06:16+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0048s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','3.jpg','593b8c57572c5.jpg','2017-06-10/','jpg','1497074775','21188','','') [ RunTime:0.1170s ]
+
+[ 2017-06-10T14:06:53+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tpshop_core_attachment` [ RunTime:0.0069s ]
+SQL: INSERT INTO `tpshop_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','32.jpg','593b8c7c24da8.jpg','2017-06-10/','jpg','1497074812','38264','','') [ RunTime:0.1415s ]
+

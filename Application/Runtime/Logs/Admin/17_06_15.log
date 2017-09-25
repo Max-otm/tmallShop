@@ -1,0 +1,922 @@
+[ 2017-06-15T10:00:54+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/type/typeattr/tid/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+NOTIC: [8] Undefined index: admin D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Common\Controller\BaseController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-06-15T10:00:56+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-06-15T10:00:56+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/admin/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-06-15T12:04:21+08:00 ] ::1 /tpShop/tpShop/Shop/index.php?s=admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+NOTIC: [8] Undefined index: admin D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Common\Controller\BaseController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-06-15T12:04:22+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2017-06-15T12:04:22+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/admin/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-06-15T12:04:29+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `tpshop_admin` [ RunTime:0.2870s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tpshop_admin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tpshop_admin` WHERE ( aname='tyt' and password = 'c4ca4238a0b923820dcc509a6f75849b'  ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-06-15T12:04:30+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-06-15T12:04:35+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-06-15T12:04:38+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/Goods/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 20,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-06-15T12:04:40+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/edit/gid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM tpshop_goods g LEFT JOIN tpshop_detail d on g.gid=d.gid  WHERE ( g.gid=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tpshop_brand`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tpshop_typeattr` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tpshop_typeattr` WHERE ( tid=1 and class=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0063s ]
+SQL: SELECT `gtvalue` FROM `tpshop_goods_attr` WHERE ( gid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM tpshop_goods_attr ga INNER JOIN tpshop_typeattr ta on ga.taid=ta.taid  WHERE ( class=1 and gid=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-06-15T12:04:46+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/edit/gid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.1069s ]
+SQL: SELECT * FROM tpshop_goods g LEFT JOIN tpshop_detail d on g.gid=d.gid  WHERE ( g.gid=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `tpshop_brand`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tpshop_typeattr` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tpshop_typeattr` WHERE ( tid=1 and class=2 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0059s ]
+SQL: SELECT `gtvalue` FROM `tpshop_goods_attr` WHERE ( gid=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM tpshop_goods_attr ga INNER JOIN tpshop_typeattr ta on ga.taid=ta.taid  WHERE ( class=1 and gid=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tpshop_goods` SET `gname`='连衣裙女中长款夏季2017夏装新款淑女装韩版修身显瘦气质裙子时尚 ',`gnumber`=' XYN17X8730XX',`cid`='20',`bid`='11',`unit`='件',`marketprice`='1123',`shopprice`='231',`click`='213',`total`='131',`pic`='/tpShop/tpShop/Shop/Uploads/2017-06-08/59393ba7a91f0.jpg',`tid`='1',`time`='1497000177',`aid`='1' WHERE `gid` = 1 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0046s ]
+SQL: DELETE FROM `tpshop_goods_attr` WHERE ( gid=1 ) [ RunTime:0.0008s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('短袖','0','1','1') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('修身型','0','2','1') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('无','0','3','1') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('泡泡袖','0','4','1') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('无','0','6','1') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('无','0','7','1') [ RunTime:0.0008s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('动物图案','0','8','1') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('无','0','9','1') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('无','0','10','1') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('无','0','11','1') [ RunTime:0.0008s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('白色','4253223','12','1') [ RunTime:0.0009s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('黑色','4253223','12','1') [ RunTime:0.0015s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('蓝色','4253223','12','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('S','3','13','1') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('M','3','13','1') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('L','3','13','1') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpshop_detail` [ RunTime:0.0055s ]
+SQL: DELETE FROM `tpshop_detail` WHERE ( gid=1 ) [ RunTime:0.0009s ]
+SQL: INSERT INTO `tpshop_detail` (`small`,`medium`,`big`,`intro`,`service`,`gid`) VALUES ('/tpShop/tpShop/Shop/Uploads/2017-06-08/small_59393bb32ab20.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-08/small_59393bb44d0a6.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-08/small_59393bb57db78.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-08/small_59393bb6b20b1.jpg','/tpShop/tpShop/Shop/Uploads/2017-06-08/medium_59393bb32ab20.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-08/medium_59393bb44d0a6.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-08/medium_59393bb57db78.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-08/medium_59393bb6b20b1.jpg','/tpShop/tpShop/Shop/Uploads/2017-06-08/59393bb32ab20.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-08/59393bb44d0a6.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-08/59393bb57db78.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-08/59393bb6b20b1.jpg','&lt;p&gt;&lt;img src=&quot;/tpShop/tpShop/Shop/Uploads/2017-06-08/59393bc62f420.jpg&quot;/&gt;&lt;/p&gt;','&lt;p&gt;&lt;img src=&quot;http://localhost/tpShop/tpShop/Shop/Uploads/2017-06-08/59393bc62f420.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1') [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-06-15T12:04:48+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-06-15T12:05:19+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/Goods/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 15,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-06-15T12:05:21+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/Goods/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 20,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-06-15T12:05:24+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/edit/gid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0051s ]
+SQL: SELECT * FROM tpshop_goods g LEFT JOIN tpshop_detail d on g.gid=d.gid  WHERE ( g.gid=6 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tpshop_brand`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tpshop_typeattr` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tpshop_typeattr` WHERE ( tid=1 and class=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0041s ]
+SQL: SELECT `gtvalue` FROM `tpshop_goods_attr` WHERE ( gid=6 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM tpshop_goods_attr ga INNER JOIN tpshop_typeattr ta on ga.taid=ta.taid  WHERE ( class=1 and gid=6 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-06-15T12:05:30+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/edit/gid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0763s ]
+SQL: SELECT * FROM tpshop_goods g LEFT JOIN tpshop_detail d on g.gid=d.gid  WHERE ( g.gid=6 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tpshop_brand`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tpshop_typeattr` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tpshop_typeattr` WHERE ( tid=1 and class=2 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0051s ]
+SQL: SELECT `gtvalue` FROM `tpshop_goods_attr` WHERE ( gid=6 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM tpshop_goods_attr ga INNER JOIN tpshop_typeattr ta on ga.taid=ta.taid  WHERE ( class=1 and gid=6 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-06-15T12:05:36+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/edit/gid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0164s ]
+SQL: SELECT * FROM tpshop_goods g LEFT JOIN tpshop_detail d on g.gid=d.gid  WHERE ( g.gid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tpshop_brand`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tpshop_typeattr` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tpshop_typeattr` WHERE ( tid=1 and class=2 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0053s ]
+SQL: SELECT `gtvalue` FROM `tpshop_goods_attr` WHERE ( gid=6 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM tpshop_goods_attr ga INNER JOIN tpshop_typeattr ta on ga.taid=ta.taid  WHERE ( class=1 and gid=6 )  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tpshop_goods` SET `gname`='热嘉蕾丝连衣裙女装2017新款夏季白色韩版七分喇叭袖小清新裙子 ',`gnumber`=' RJ1720161240',`cid`='19',`bid`='10',`unit`='件',`marketprice`='299',`shopprice`='296',`click`='111',`total`='12',`pic`='/tpShop/tpShop/Shop/Uploads/2017-06-10/593b8af05d91e.jpg',`tid`='1',`time`='1497074505',`aid`='1' WHERE `gid` = 6 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0060s ]
+SQL: DELETE FROM `tpshop_goods_attr` WHERE ( gid=6 ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('七分袖','0','1','6') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('修身型','0','2','6') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('长款','0','3','6') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('露肩袖','0','4','6') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('淑女','0','6','6') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('镂空','0','7','6') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('纯色','0','8','6') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('英伦','0','9','6') [ RunTime:0.0009s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('真丝','0','10','6') [ RunTime:0.0011s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('青年','0','11','6') [ RunTime:0.0009s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('黑色','0','12','6') [ RunTime:0.0009s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('白色','0','12','6') [ RunTime:0.0009s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('L','0','13','6') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('M','0','13','6') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tpshop_goods_attr` (`gtvalue`,`added`,`taid`,`gid`) VALUES ('S','0','13','6') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpshop_detail` [ RunTime:0.0043s ]
+SQL: DELETE FROM `tpshop_detail` WHERE ( gid=6 ) [ RunTime:0.0006s ]
+SQL: INSERT INTO `tpshop_detail` (`small`,`medium`,`big`,`intro`,`service`,`gid`) VALUES ('/tpShop/tpShop/Shop/Uploads/2017-06-10/small_593b8b15f0a68.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-10/small_593b8b171ee3c.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-10/small_593b8b1857d5f.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-10/small_593b8b19a2fa1.jpg','/tpShop/tpShop/Shop/Uploads/2017-06-10/medium_593b8b15f0a68.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-10/medium_593b8b171ee3c.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-10/medium_593b8b1857d5f.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-10/medium_593b8b19a2fa1.jpg','/tpShop/tpShop/Shop/Uploads/2017-06-10/593b8b15f0a68.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-10/593b8b171ee3c.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-10/593b8b1857d5f.jpg|/tpShop/tpShop/Shop/Uploads/2017-06-10/593b8b19a2fa1.jpg','&lt;p&gt;&lt;img src=&quot;/tpShop/tpShop/Shop/Uploads/2017-06-10/593b8b26d1fd9.jpg&quot;/&gt;&lt;/p&gt;','&lt;p&gt;&lt;img src=&quot;http://localhost/tpShop/tpShop/Shop/Uploads/2017-06-10/593b8b26d1fd9.jpg&quot;/&gt;&lt;br/&gt;&lt;/p&gt;','6') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-06-15T12:05:38+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002551s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-06-15T18:44:38+08:00 ] ::1 /tpShop/tpShop/Shop/index.php?s=admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003364s ]
+
+[ 2017-06-15T18:44:44+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2017-06-15T18:45:45+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/Goods/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003788s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 5,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-06-15T18:45:49+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Admin/Goods/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 10,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-06-15T18:45:53+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/edit/gid/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0083s ]
+SQL: SELECT * FROM tpshop_goods g LEFT JOIN tpshop_detail d on g.gid=d.gid  WHERE ( g.gid=15 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tpshop_brand`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tpshop_typeattr` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tpshop_typeattr` WHERE ( tid=14 and class=2 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0063s ]
+SQL: SELECT `gtvalue` FROM `tpshop_goods_attr` WHERE ( gid=15 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM tpshop_goods_attr ga INNER JOIN tpshop_typeattr ta on ga.taid=ta.taid  WHERE ( class=1 and gid=15 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-06-15T18:46:03+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/cate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tpshop_type` [ RunTime:0.0076s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='15' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='15' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='8' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='12' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='12' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='12' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='11' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='13' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `tname` FROM `tpshop_type` WHERE ( tid='14' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\1537dc1a60bf3f0c8cba043c2989173b.php 第 334 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-06-15T18:46:23+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/type/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `tpshop_type` [ RunTime:0.0154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_type` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tpshop_type` ORDER BY tid desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-06-15T18:46:27+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/type/typeattr/tid/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `tpshop_type` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tpshop_type` WHERE ( tid=14 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tpshop_typeattr` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_typeattr` WHERE ( tid=14 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tpshop_typeattr` WHERE ( tid=14 ) ORDER BY taid desc LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-06-15T18:58:10+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0863s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tpshop_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-06-15T18:58:13+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tpshop_brand`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+

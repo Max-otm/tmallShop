@@ -1,0 +1,1 @@
+a:8:{i:0;s:3:"aid";i:1;s:7:"account";i:2;s:5:"aname";i:3;s:8:"password";i:4;s:9:"logintime";i:5;s:2:"ip";s:3:"_pk";s:3:"aid";s:5:"_type";a:6:{s:3:"aid";s:7:"int(11)";s:7:"account";s:16:"int(10) unsigned";s:5:"aname";s:8:"char(15)";s:8:"password";s:8:"char(45)";s:9:"logintime";s:4:"date";s:2:"ip";s:11:"varchar(25)";}}

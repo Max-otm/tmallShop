@@ -1,0 +1,1 @@
+a:7:{i:0;s:3:"cid";i:1;s:5:"cname";i:2;s:3:"pid";i:3;s:4:"sort";i:4;s:3:"tid";s:3:"_pk";s:3:"cid";s:5:"_type";a:5:{s:3:"cid";s:7:"int(11)";s:5:"cname";s:8:"char(40)";s:3:"pid";s:7:"int(11)";s:4:"sort";s:16:"int(10) unsigned";s:3:"tid";s:16:"int(10) unsigned";}}

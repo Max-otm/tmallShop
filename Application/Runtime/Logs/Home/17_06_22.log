@@ -1,0 +1,565 @@
+[ 2017-06-22T10:48:22+08:00 ] ::1 /tpShop/tpShop/Shop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0624s ]
+SQL: SELECT `cid` FROM `tpshop_category` WHERE ( pid=0 ) ORDER BY csort asc  [ RunTime:0.0428s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0554s ]
+SQL: SELECT * FROM `tpshop_brand` ORDER BY bsort desc LIMIT 24   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0318s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (1,3,4,5) ) ORDER BY gid desc LIMIT 6   [ RunTime:0.0428s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (1,3,4,5) ) ORDER BY gid asc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cname`,`tid` FROM `tpshop_category` WHERE ( tid in (1,3,4,5)  ) ORDER BY cid asc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (14,16,17) ) ORDER BY gid desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (14,16,17) ) ORDER BY gid desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (14,16,17) ) ORDER BY gid asc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT `cid`,`cname`,`tid` FROM `tpshop_category` WHERE ( tid in (14,16,17)  ) ORDER BY cid asc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (15,11,8,9) ) ORDER BY gid desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (15,11,8,9) ) ORDER BY gid asc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `cid`,`cname`,`tid` FROM `tpshop_category` WHERE ( tid in (15,11,8,9)  ) ORDER BY cid asc LIMIT 10   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY click desc LIMIT 15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 8 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 9 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 10 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 11 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 12 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 13 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 14 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 15 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-06-22T10:48:30+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Lists/index/cid/82.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0051s ]
+SQL: SELECT `gid` FROM `tpshop_goods` WHERE `cid` IN ('82')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.1005s ]
+SQL: SELECT * FROM `tpshop_goods_attr` WHERE `gid` IN ('9') GROUP BY gtvalue  [ RunTime:0.0214s ]
+SQL: SHOW COLUMNS FROM `tpshop_typeattr` [ RunTime:0.0801s ]
+SQL: SELECT `taname` FROM `tpshop_typeattr` WHERE ( taid=41 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `taname` FROM `tpshop_typeattr` WHERE ( taid=44 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `taname` FROM `tpshop_typeattr` WHERE ( taid=48 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `taname` FROM `tpshop_typeattr` WHERE ( taid=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `taname` FROM `tpshop_typeattr` WHERE ( taid=47 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `taname` FROM `tpshop_typeattr` WHERE ( taid=49 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `taname` FROM `tpshop_typeattr` WHERE ( taid=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `taname` FROM `tpshop_typeattr` WHERE ( taid=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE `gid` IN ('9')  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\fb5773516afd6eccd9629f60016a49a5.php 第 1 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\fb5773516afd6eccd9629f60016a49a5.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-06-22T10:48:33+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Content/index/gid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( gid=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpshop_typeattr` [ RunTime:0.0052s ]
+SQL: SELECT taid,taname FROM `tpshop_typeattr` WHERE ( class=1 and tid=3 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tpshop_goods_attr` WHERE ( taid=44 and gid=9 )  [ RunTime:0.0003s ]
+SQL: SELECT taid,taname FROM `tpshop_typeattr` WHERE ( class=2 and tid=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods_attr` WHERE ( taid=14 and gid=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods_attr` WHERE ( taid=45 and gid=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods_attr` WHERE ( taid=46 and gid=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods_attr` WHERE ( taid=47 and gid=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods_attr` WHERE ( taid=48 and gid=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpshop_goods_attr` WHERE ( taid=49 and gid=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpshop_detail` [ RunTime:0.0591s ]
+SQL: SELECT * FROM `tpshop_detail` WHERE ( gid=9 ) LIMIT 1   [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\05c25a47e280706f416be77c1b8978f8.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-06-22T10:48:39+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Content/joinCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tpshop_goods` WHERE ( gid=9 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\ContentController.class.php on line 60 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+NOTIC: [8] Undefined index: cart D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 191 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\ContentController.class.php on line 61 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_goods_attr` [ RunTime:0.0039s ]
+SQL: SELECT `gtid` FROM `tpshop_goods_attr` WHERE ( gid=9 and gtvalue='175/92A' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods_list` [ RunTime:0.0606s ]
+SQL: SELECT `glid` FROM `tpshop_goods_list` WHERE ( combine='483' and gid=9 ) LIMIT 1   [ RunTime:0.0169s ]
+
+[ 2017-06-22T10:48:40+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\CartController.class.php on line 19 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0040s ]
+SQL: SELECT `bid` FROM `tpshop_goods` WHERE ( gid=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tpshop_brand` WHERE ( bid=12 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\CartController.class.php on line 25 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2017-06-22T10:48:43+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002281s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Common\Controller\BaseUserController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-06-22T10:48:44+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-06-22T10:48:49+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `tpshop_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tpshop_user` WHERE ( username='tyt' and upassword='c4ca4238a0b923820dcc509a6f75849b' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpshop_user` WHERE ( username='tyt' and upassword='c4ca4238a0b923820dcc509a6f75849b' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-06-22T10:48:51+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php on line 20 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0039s ]
+SQL: SELECT `bid` FROM `tpshop_goods` WHERE ( gid=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tpshop_brand` WHERE ( bid=12 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php on line 27 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_address` [ RunTime:0.0568s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( uid=1 )  [ RunTime:0.0124s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( iscur=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\e893484f6e11c99bf4d029613fbe0ae9.php 第 59 行.
+NOTIC: [8] Use of undefined constant adid - assumed 'adid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\e893484f6e11c99bf4d029613fbe0ae9.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2017-06-22T10:49:04+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/addr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `tpshop_address` [ RunTime:0.0049s ]
+SQL: INSERT INTO `tpshop_address` (`iscur`,`consignee`,`phone`,`area`,`address`,`uid`) VALUES ('0','11','1131242112','江西,南昌,青山湖区','FUCK111','1') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( adid=9 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-22T11:07:42+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php on line 20 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0064s ]
+SQL: SELECT `bid` FROM `tpshop_goods` WHERE ( gid=9 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tpshop_brand` WHERE ( bid=12 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php on line 27 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_address` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( uid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( iscur=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\e893484f6e11c99bf4d029613fbe0ae9.php 第 59 行.
+NOTIC: [8] Use of undefined constant adid - assumed 'adid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\e893484f6e11c99bf4d029613fbe0ae9.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-06-22T11:08:25+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/delete/adid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `tpshop_address` [ RunTime:0.0047s ]
+SQL: DELETE FROM `tpshop_address` WHERE ( adid=9 ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-06-22T11:08:28+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php on line 20 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0046s ]
+SQL: SELECT `bid` FROM `tpshop_goods` WHERE ( gid=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tpshop_brand` WHERE ( bid=12 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php on line 27 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_address` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( uid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( iscur=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\e893484f6e11c99bf4d029613fbe0ae9.php 第 59 行.
+NOTIC: [8] Use of undefined constant adid - assumed 'adid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\e893484f6e11c99bf4d029613fbe0ae9.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-06-22T11:08:33+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `tpshop_address` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( adid=8 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-22T11:08:34+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `tpshop_address` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( adid=8 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-22T11:08:51+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/addr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `tpshop_address` [ RunTime:0.0044s ]
+SQL: SELECT `adid` FROM `tpshop_address`  [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'adid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php 第 62 行.
+SQL: UPDATE `tpshop_address` SET `iscur`='0' WHERE ( adid=1 ) [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'adid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php 第 62 行.
+SQL: UPDATE `tpshop_address` SET `iscur`='0' WHERE ( adid=8 ) [ RunTime:0.0003s ]
+SQL: UPDATE `tpshop_address` SET `iscur`='1',`consignee`='涂老二',`phone`='15979076441',`area`='江西,南昌,青山湖区',`address`='没有哪里不可以去的吧',`uid`='1' WHERE `adid` = 8 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( adid=8 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-22T11:08:52+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Submit/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php on line 20 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0051s ]
+SQL: SELECT `bid` FROM `tpshop_goods` WHERE ( gid=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tpshop_brand` WHERE ( bid=12 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\SubmitController.class.php on line 27 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tpshop_address` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( uid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_address` WHERE ( iscur=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\e893484f6e11c99bf4d029613fbe0ae9.php 第 59 行.
+NOTIC: [8] Use of undefined constant adid - assumed 'adid' D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\e893484f6e11c99bf4d029613fbe0ae9.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2017-06-22T11:16:06+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\CartController.class.php on line 19 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+NOTIC: [8] Undefined index: cart D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 191 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\CartController.class.php 第 21 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Cart::__construct(), called in D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Home\Controller\CartController.class.php on line 25 and defined D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 24 行.
+NOTIC: [8] Undefined variable: app D:\phpStudy\WWW\tpShop\tpShop\Shop\ThinkPHP\Library\Org\Util\Cart.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-06-22T11:23:31+08:00 ] ::1 /tpShop/tpShop/Shop/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `tpshop_category` [ RunTime:0.0068s ]
+SQL: SELECT `cid` FROM `tpshop_category` WHERE ( pid=0 ) ORDER BY csort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpshop_category`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tpshop_brand` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tpshop_brand` ORDER BY bsort desc LIMIT 24   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tpshop_goods` [ RunTime:0.0049s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (1,3,4,5) ) ORDER BY gid desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (1,3,4,5) ) ORDER BY gid asc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cname`,`tid` FROM `tpshop_category` WHERE ( tid in (1,3,4,5)  ) ORDER BY cid asc LIMIT 10   [ RunTime:0.0006s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (14,16,17) ) ORDER BY gid desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (14,16,17) ) ORDER BY gid desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (14,16,17) ) ORDER BY gid asc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cname`,`tid` FROM `tpshop_category` WHERE ( tid in (14,16,17)  ) ORDER BY cid asc LIMIT 10   [ RunTime:0.0003s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (15,11,8,9) ) ORDER BY gid desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT `gid`,`gname`,`pic` FROM `tpshop_goods` WHERE ( tid in (15,11,8,9) ) ORDER BY gid asc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `cid`,`cname`,`tid` FROM `tpshop_category` WHERE ( tid in (15,11,8,9)  ) ORDER BY cid asc LIMIT 10   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpshop_goods` ORDER BY click desc LIMIT 15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 4 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 5 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [8] Undefined offset: 6 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 7 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 8 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 9 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 10 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 11 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 12 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 13 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 14 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+NOTIC: [8] Undefined offset: 15 D:\phpStudy\WWW\tpShop\tpShop\Shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 323 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+

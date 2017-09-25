@@ -1,0 +1,39 @@
+<layout name="../../../Public/master" />
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href=""><i class="fa fa-cogs"></i>
+            属性管理</a>
+    </li>
+    <li class="active">
+        <a href="">属性修改,添加</a>
+    </li>
+</ol>
+<ul class="nav nav-tabs" role="tablist">
+    <if condition="I('get.taid')">
+        <li class="active"><a href="#tab1">属性编辑</a></li>
+        <else /> <li class="active"><a href="#tab1">属性添加</a></li>
+    </if>
+</ul>
+<form action="" method="post" class="form-inline">
+    <div class="form-group" style="margin: 50px">
+        <label for="Taname">属性名:</label>
+        <input type="text" name="taname" id="Taname" value="{$oldData['taname']}" class="form-control" style="width: 300px;">
+        <br><br>
+        <if condition="isset($oldData['class'])">
+            <if condition="$oldData['class']==1">
+                <input type="radio" name="class" value="1" checked>规格
+                <input type="radio" name="class" value="2" >属性
+                <else />
+                <input type="radio" name="class" value="1">规格
+                <input type="radio" name="class" value="2" checked>属性
+            </if>
+        <else/>
+           <input type="radio" name="class" value="1" checked>规格<input type="radio" name="class" value="2">属性</label>
+        </if>
+        <br>
+        <label for="Tavalue">请输入值(可以为多个):</label>
+        <input type="text" name="tavalue" id="Tavalue" value="{$oldData['tavalue']}" class="form-control" style="width: 300px;" placeholder="每个值之间请用逗号隔开">
+        <br><br>
+        <button class="btn btn-warning">确认</button>
+    </div>
+</form>

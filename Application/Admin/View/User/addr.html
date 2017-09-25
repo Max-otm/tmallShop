@@ -1,0 +1,64 @@
+<layout name="../../../Public/master" />
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href=""><i class="fa fa-cogs"></i>
+            用户管理</a>
+    </li>
+    <li class="active">
+        <a href="">用户地址管理</a>
+    </li>
+</ol>
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="#tab1">地址列表</a></li>
+</ul>
+<table class="table table-hover" style="margin: 20px">
+    <thead>
+    <tr>
+        <th width="80">地址id</th>
+        <th>收件人</th>
+        <th>是否默认</th>
+        <th>联系电话</th>
+        <th>地区</th>
+        <th width="250">详细地址</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <foreach name="addressData" key="k" item="v">
+        <tr>
+            <th width="80">{$v['adid']}</th>
+            <td>{$v['consignee']}</td>
+            <td>{$v['iscur']}</td>
+            <td>{$v['phone']}</td>
+            <td>{$v['area']}</td>
+            <td>{$v['address']}</td>
+            <td>
+                <a class="btn btn-primary" href="{:u('admin/user/edit',['adid'=>$v['adid'],'uid'=>I('get.uid')])}" >修改</a>
+                <a class="btn btn-danger" href="javascript:;"onclick="del({$v['adid']})">删除</a></td>
+        </tr>
+    </foreach>
+    </tbody>
+</table>
+<div class="col-sm-12 text-right text-center-xs">
+    <ul class="pagination pagination-sm m-t-none m-b-none">
+        {$page}
+    </ul>
+</div>
+<script>
+    function del(uid) {
+        var obj = util.modal({
+            title:'确认删除吗?',//标题
+            content:'',//内容
+            footer:'<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button><button type="button" class="btn btn-danger confirm" data-dismiss="modal">删除</button>',//底部
+            width:600,//宽度
+            events:{
+                confirm:function(){
+                    //哪个元素上有.confirm类，被点击就执行这个回调
+                    location.href="{:u('admin/user/delete',['adid'=>$v['adid'],'uid'=>I('get.uid')])}";
+                }
+            }
+        });
+        //显示模态框
+        obj.modal('show');
+    }
+</script>

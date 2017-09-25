@@ -1,0 +1,35 @@
+<layout name="../../../Public/master" />
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href=""><i class="fa fa-cogs"></i>
+            用户管理</a>
+    </li>
+    <li class="active">
+        <a href="">用户地址管理</a>
+    </li>
+</ol>
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="#tab1">地址修改</a></li>
+</ul>
+<script  src="__PUBLIC__/Home/js/area.js"></script>
+<script type="text/javascript">
+    $(function () {
+        //初始化方法
+        area.init('area');
+        //修改的时候默认被选中效果.
+        area.selected("{$oldData['area'][0]}", "{$oldData['area'][1]}", "{$oldData['area'][2]}");
+    })
+</script>
+<form action="" method="post">
+    城市：
+    <select name="area[]" id="area1" ></select>
+    <select name="area[]" id="area2" ></select>
+    <select name="area[]" id="area3" ></select>
+    收件人:
+    <input type="text" name="consignee"  value="{$oldData['consignee']}">
+    手机号： <input type="text" name="phone" value="{$oldData['phone']}">
+    详细地址：
+    <textarea  rows="3" name="address">{$oldData['address']}</textarea>
+    <br>
+    <button type="submit" class="btn btn-primary">提交</button>
+</form>

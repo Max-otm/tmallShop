@@ -1,0 +1,132 @@
+<script>
+              $(function () {
+                        $("select[name=cid]").change(function () {
+                            //1.通过分类找见对应的类型属性 所以首先要类型id
+                            var tid = $(":selected").attr('tid');
+                            //2.因为goods表字段存在tid 所以给了个隐藏域
+                            $('input[name=tid]').val(tid);
+                            //3.顶级分类没有必要添加商品
+                            if(tid==0){
+                                alert('顶级分类不能添加商品');
+                                //如果选中了顶级分类应该跳回请选择。
+                                $(this).val(0);
+                                return false;
+                            }
+                            //4.发送异步
+                            $.ajax({
+                                type:'post',
+                                url:"{:u('getAttr')}",
+                                data:{tid:tid},
+                                dataType:'json',
+                                success:function (res) {
+                                    var attr = '';
+                                    var spec = '';
+                                    $.each(res,function (k,v) {
+                                        if(v.class==2){
+                                            //属性
+                                            attr += '<tr><td>'+v.taname+'</td><td><select name="attr['+v.taid+']"><option value="0">请选择</option>';
+                                            $.each(v.tavalue,function (kk,vv) {
+                                                attr += '<option value="'+vv+'">'+vv+'</option>';
+                                            })
+                                            attr += '</select></td></tr>';
+                                        }else{
+                                            //规格
+                                            spec += '<tr><td>'+v.taname+'</td><td><select name="spec['+v.taid+'][color][]"><option value="0">请选择</option>';
+                                            $.each(v.tavalue,function (kk,vv) {
+                                                spec += '<option value="'+vv+'">'+vv+'</option>';
+                                            })
+                                            spec += '</select></td><td>附加价格</td>';
+                                            spec +='<td><input type="text" name="spec['+ v.taid+'][added][]"></td><td><button type="button" class="btn btn-success btn-xs addSpec">追加</button></td></tr>';
+                                        }
+                                    })
+                                    $("#attr").html(attr);
+                                    $("#spec").html(spec);
+                                }
+                            })
+                        })
+                    })
+ </script>
+
+
+ <script>
+                 $(function () {
+                     //追加
+                     $('#spec').delegate('.addSpec','click',function () {
+                         //1.找见当前的tr
+                         var tr = $(this).parents('tr').clone();
+                         //3.把追加按钮替换成删除按钮
+                         var del = '<button type="button" class="btn btn-danger btn-xs delSpec">删除</button>';
+                         tr.find('td').last().html(del);
+                         //2.追加
+                         $(this).parents('tr').after(tr);
+                     })
+                     //删除
+                     $('#spec').delegate('.delSpec','click',function () {
+                         $(this).parents('tr').remove();
+                     })
+                 })
+             </script>
+
+
+
+
+    [gname] => 耐克短袖
+    [gnumber] => 111
+    [cid] => 89
+    [attr] => Array
+        (
+            [1] => 0
+            [2] => 0
+            [3] => 0
+            [4] => 0
+            [5] => 0
+            [6] => 0
+            [7] => 0
+            [8] => 0
+            [9] => 0
+            [10] => 0
+            [11] => 0
+        )
+
+    [spec] => Array
+        (
+            [12] => Array
+                (
+                    [color] => Array
+                        (
+                            [0] => 0
+                        )
+
+                    [added] => Array
+                        (
+                            [0] =>
+                        )
+
+                )
+
+            [13] => Array
+                (
+                    [color] => Array
+                        (
+                            [0] => 0
+                        )
+
+                    [added] => Array
+                        (
+                            [0] =>
+                        )
+
+                )
+
+        )
+
+    [bid] => 1
+    [unit] => 件
+    [marketprice] => 111
+    [shopprice] => 222
+    [click] => 333
+    [total] => 444
+    [pic] => /DH16/Project/Shop/Uploads/2017-06-08/5938be0bd58e7.jpg
+    [intro] =>
+    [service] =>
+    [tid] => 1

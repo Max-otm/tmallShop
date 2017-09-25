@@ -1,0 +1,1 @@
+a:7:{i:0;s:3:"bid";i:1;s:5:"bname";i:2;s:9:"brandlogo";i:3;s:5:"bsort";i:4;s:5:"ishot";s:3:"_pk";s:3:"bid";s:5:"_type";a:5:{s:3:"bid";s:7:"int(11)";s:5:"bname";s:11:"varchar(45)";s:9:"brandlogo";s:4:"text";s:5:"bsort";s:16:"int(10) unsigned";s:5:"ishot";s:10:"tinyint(1)";}}

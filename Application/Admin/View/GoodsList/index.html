@@ -1,0 +1,58 @@
+<layout name="../../../Public/master"/>
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href=""><i class="fa fa-cogs"></i>
+            商品管理</a>
+    </li>
+    <li class="active">
+        <a href="">商品列表</a>
+    </li>
+</ol>
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#tab3">商品列表</a>
+    </li>
+</ul>
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel panel-default">
+            <div class="panel-body">
+                <table class="table table-bordered">
+                   <thead>
+                   <tr>
+                       <th class="col-sm-2">货品id</th>
+                       <th class="col-sm-3">商品规格</th>
+                       <th class="col-sm-3">货号</th>
+                       <th class="col-sm-2">货余量</th>
+                       <th class="col-sm-2">操作</th>
+                   </tr>
+                   </thead>
+                    <tbody>
+                    <foreach name="data" item="v">
+                    <tr>
+                        <td style="vertical-align: middle;text-align: center;font-size: 15px;color: orange;">{$v['gid']}</td>
+                        <td style="color: red;">{$v['combine']}</td>
+                        <td style="color: black;">{$v['number']}</td>
+                        <td>{$v['inventory']}</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="{:u('admin/GoodsList/save',['glid'=>$v['glid'],'gid'=>I('get.gid')])}" >编辑</a>
+                            <a class="btn btn-danger btn-sm" href="{:u('admin/GoodsList/delete',['glid'=>$v['glid'],'gid'=>I('get.gid')])}">删除</a>
+                        </td>
+                    </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+                <!--展示分页-->
+                <div class="col-sm-12 text-right text-center-xs">
+                    <ul class="pagination pagination-sm m-t-none m-b-none">
+                        {$page}
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="btn-group">
+    <a href="{:u('admin/Goods/index')}" class="btn btn-primary"> <<回到商品列表</a><a href="{:u('admin/GoodsList/save',['gid'=>I('get.gid')])}" class="btn btn-warning">商品添加</a>
+</div>
+

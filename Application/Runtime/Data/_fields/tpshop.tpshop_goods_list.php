@@ -1,0 +1,1 @@
+a:7:{i:0;s:4:"glid";i:1;s:7:"combine";i:2;s:6:"number";i:3;s:9:"inventory";i:4;s:3:"gid";s:3:"_pk";s:4:"glid";s:5:"_type";a:5:{s:4:"glid";s:16:"int(10) unsigned";s:7:"combine";s:8:"char(50)";s:6:"number";s:8:"char(30)";s:9:"inventory";s:20:"smallint(6) unsigned";s:3:"gid";s:16:"int(10) unsigned";}}

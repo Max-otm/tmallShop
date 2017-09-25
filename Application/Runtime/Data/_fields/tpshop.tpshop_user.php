@@ -1,0 +1,1 @@
+a:9:{i:0;s:3:"uid";i:1;s:8:"username";i:2;s:9:"upassword";i:3;s:5:"email";i:4;s:7:"address";i:5;s:5:"phone";i:6;s:5:"money";s:3:"_pk";s:3:"uid";s:5:"_type";a:7:{s:3:"uid";s:7:"int(11)";s:8:"username";s:8:"char(15)";s:9:"upassword";s:8:"char(45)";s:5:"email";s:8:"char(20)";s:7:"address";s:4:"text";s:5:"phone";s:10:"bigint(11)";s:5:"money";s:16:"int(10) unsigned";}}

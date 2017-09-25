@@ -1,0 +1,25 @@
+<layout name="../../../Public/master" />
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href=""><i class="fa fa-cogs"></i>
+            类型管理</a>
+    </li>
+    <li class="active">
+        <a href="">类型修改,添加</a>
+    </li>
+</ol>
+<ul class="nav nav-tabs" role="tablist">
+    <if condition="I('get.tid')">
+        <li class="active"><a href="#tab1">类型编辑</a></li>
+        <else /> <li class="active"><a href="#tab1">类型添加</a></li>
+    </if>
+</ul>
+<form action="" method="post" class="form-inline">
+    <div class="form-group" style="margin: 50px">
+        <label for="Tname">类型:</label>
+        <input type="text" name="tname" id="Tname" value="{$oldData['tname']}" class="form-control" style="width: 300px;">
+        <br>
+        <br>
+        <button class="btn btn-warning">确认</button>
+    </div>
+</form>
